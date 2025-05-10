@@ -1,0 +1,16 @@
+---
+description: Rules for backend API development and data handling
+globs: ["backend/**/*"]
+alwaysApply: true
+---
+
+## 🛠️ Backend Guidelines
+
+- All APIs must follow **RESTful principles**.
+- Use **TypeScript** (if Node.js) or strongly typed languages.
+- Validate all input data and sanitize outputs.
+- Write self-documenting code; prefer clarity over cleverness.
+- Follow standard naming conventions for routes and models.
+- Include error handling and appropriate status codes.
+- Use environment variables for config/secrets.
+- Reference `PRD.md` for feature logic and constraints.
