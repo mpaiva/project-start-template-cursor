@@ -1,0 +1,10 @@
+---
+description: General project guidelines
+globs: ["**/*"]
+alwaysApply: true
+---
+
+- All code must comply with WCAG 2.2 AA accessibility standards.
+- Use semantic HTML and proper ARIA labels.
+- Reference `PRD.md` for product requirements.
+- Log all AI prompts and responses in `PROMPTS.md`.
