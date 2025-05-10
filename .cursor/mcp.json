@@ -1,11 +1,68 @@
 {
- "mcpServers": {
- "server-name": {
- "command": "npx",
- "args": ["-y", "mcp-server"],
- "env": {
- "API_KEY": "value"
- }
- }
- }
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
+      }
+    },
+    "context7-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@upstash/context7-mcp",
+        "--key",
+        "72e9aa20-e694-415f-b73a-5f79d3d0aac5"
+      ]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "perplexity-ask": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@chatmcp/server-perplexity-ask"
+      ],
+      "env": {
+        "PERPLEXITY_API_KEY": "YOUR_API_KEY_HERE"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--headless"
+      ]
+    },
+    "clear-thought": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@waldzellai/clear-thought",
+        "--key",
+        "72e9aa20-e694-415f-b73a-5f79d3d0aac5"
+      ]
+    },
+    "a11y-accessibility": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "a11y-mcp-server"
+    ]
+   }
+   
+  }
 }
