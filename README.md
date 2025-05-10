@@ -1,2 +1,7 @@
-# project-start-template-cursor
-A GitHub Template Repository makes it easy to reuse your starter setup across multiple projects with a single click.
+# 🧱 Project Starter Template
+
+This template includes the basic setup for any new project with accessibility, planning, and AI workflow in mind.
+
+## ✅ Requirements
+
+- All work must comply with **WCAG 2.2 AA** accessibility guidelines.
