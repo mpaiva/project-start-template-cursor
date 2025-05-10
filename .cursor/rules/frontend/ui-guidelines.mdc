@@ -1,0 +1,15 @@
+---
+description: Rules for frontend development and UI components
+globs: ["frontend/**/*"]
+alwaysApply: true
+---
+
+## 🧩 Frontend Guidelines
+
+- All UI must comply with **WCAG 2.2 AA** accessibility standards.
+- Use **semantic HTML**, **ARIA roles**, and ensure proper keyboard navigation.
+- Use **React functional components** with hooks.
+- Use **Tailwind CSS** for styling; avoid inline styles unless necessary.
+- Use **TypeScript** for all components and utilities.
+- Ensure mobile responsiveness and logical tab order.
+- Reference `PRD.md` for user experience goals.
