@@ -6,6 +6,23 @@
 
 A comprehensive GitHub Template Repository designed to kickstart your projects with accessibility, planning, and AI-powered development workflow in mind. This template makes it easy to reuse a robust starter setup across multiple projects with just a single click.
 
+## 💬 Need Help? Interactive Chat Support
+
+Get instant help and guidance for this repository using the [gitMCP Chat](https://gitmcp.io/mpaiva/project-starter-template-cursor/chat).
+
+[![Open Chat](https://img.shields.io/badge/Chat-gitMCP-blue?logo=github)](https://gitmcp.io/mpaiva/project-starter-template-cursor/chat)
+
+**Example Questions to Ask the Chat:**
+
+- "How do I set up this project locally?"
+- "What are the main features of this repository?"
+- "Can you explain the folder structure?"
+- "How do I run the tests?"
+- "Where can I find the API documentation?"
+- "What coding standards should I follow here?"
+- "How do I contribute a new feature?"
+- "Who do I contact for support?"
+
 ## 🌟 Overview
 
 This template provides a structured foundation for any new project, with a specific focus on accessibility compliance and enhancing your AI development workflow in Cursor IDE. It includes essential scaffolding, configuration files, and development best practices to get you started quickly and efficiently.
