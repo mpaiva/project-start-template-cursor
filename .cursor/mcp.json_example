@@ -2,7 +2,10 @@
   "mcpServers": {
     "github": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
       }
@@ -23,18 +26,27 @@
     },
     "sequential-thinking": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
     },
     "perplexity-ask": {
       "command": "npx",
-      "args": ["-y", "@chatmcp/server-perplexity-ask"],
+      "args": [
+        "-y",
+        "@chatmcp/server-perplexity-ask"
+      ],
       "env": {
         "PERPLEXITY_API_KEY": "YOUR_API_KEY_HERE"
       }
     },
     "playwright": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--headless"]
+      "args": [
+        "@playwright/mcp@latest",
+        "--headless"
+      ]
     },
     "clear-thought": {
       "command": "npx",
@@ -49,7 +61,10 @@
     },
     "a11y-accessibility": {
       "command": "npx",
-      "args": ["-y", "a11y-mcp-server"]
+      "args": [
+        "-y",
+        "a11y-mcp-server"
+      ]
     }
   }
 }

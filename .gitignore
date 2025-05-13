@@ -1,3 +1,6 @@
+# Ignore MCP config with secrets
+.cursor/mcp.json
+
 # Logs
 logs
 *.log
